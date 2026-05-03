@@ -51,8 +51,7 @@ A full-stack healthcare platform for booking and managing doctor appointments.
 
 - Email: tarun7488kumar@gmail.com
 - GitHub: https://github.com/Tarun-7092
-- LinkedIn: https://linkedin.com/in/your-profile
-
+- LinkedIn: https://www.linkedin.com/in/tarun-kumar32/
 ---
 
 ## 📄 License
