@@ -45,6 +45,34 @@ A full-stack healthcare platform for booking and managing doctor appointments.
 
 ---
 
+## 🌐 Live Deployments
+
+### Portfolio Website
+🔗 **Live Demo:**  
+https://portfolio-eosin-ten-7392kwijma.vercel.app 
+
+### AI Code Reviewer
+🔗 **Live Demo:**  
+https://ai-code-reviewer-pi-tawny.vercel.app
+
+### Vehicle Breakdown Prediction System
+🔗 **Live Demo:**  
+https://vehicle-prediction.vercel.app
+
+### Doctor Appointment App
+🔗 **Live Demo:**  
+https://doctor-appointment-app-seven-ivory.vercel.app
+
+---
+
+## 📦 Source Code
+
+- **Portfolio Repository:**  
+  https://github.com/Tarun-7092
+
+- **More Projects:**  
+  https://github.com/Tarun-7092
+
 ## 📬 Contact
 
 **Tarun Kumar**
