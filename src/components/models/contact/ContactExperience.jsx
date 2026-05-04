@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Suspense } from "react";
-import Computer from "./Computer";
+import Computer from "./Computer.jsx";
 
 const ContactExperience = () => {
   return (

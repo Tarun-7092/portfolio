@@ -1,7 +1,7 @@
 import React from "react";
-import TitleHeader from "../components/TitleHeader";
+import TitleHeader from "../components/TitleHeader.jsx";
 import { achievements } from "../constants";
-import GlowCard from "../components/GlowCard";
+import GlowCard from "../components/GlowCard.jsx";
 
 const Achievements = () => {
   return (
