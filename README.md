@@ -68,10 +68,33 @@ https://doctor-appointment-app-seven-ivory.vercel.app
 ## 📦 Source Code
 
 - **Portfolio Repository:**  
-  https://github.com/Tarun-7092
+  https://github.com/Tarun-7092/portfolio
 
 - **More Projects:**  
   https://github.com/Tarun-7092
+
+---
+
+## 🖼️ Screenshots
+
+### Portfolio Homepage
+![Portfolio Screenshot](./assets/portfolio.png)
+
+### AI Code Reviewer
+![AI Code Reviewer](./assets/ai-reviewer.png)
+
+### Vehicle Breakdown Prediction
+![Vehicle Prediction](./assets/vehicle-app.png)
+
+---
+
+## 🎥 GIF Previews
+
+### Portfolio Animation
+![Portfolio GIF](./assets/portfolio-demo.gif)
+
+### AI Review Demo
+![AI Reviewer GIF](./assets/ai-review-demo.gif)
 
 ## 📬 Contact
 
