@@ -96,6 +96,8 @@ https://doctor-appointment-app-seven-ivory.vercel.app
 ### AI Review Demo
 ![AI Reviewer GIF](./assets/ai-review-demo.gif)
 
+---
+
 ## 📬 Contact
 
 **Tarun Kumar**
