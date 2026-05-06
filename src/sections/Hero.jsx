@@ -2,29 +2,34 @@ import { useGSAP } from "@gsap/react";
 import Button from "../components/Button.jsx";
 import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import { words } from "../constants/index.js";
-import gsap from 'gsap'
+import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
 
 const Hero = () => {
-    useGSAP(() => {
-        gsap.fromTo('.hero-text h1',
-            {
-                y: 50,
-                opacity: 0
-            },
-            {
-                y: 0,
-                opacity: 1,
-                stagger: 0.2,
-                duration: 1,
-                ease: 'power2.inOut'
-            }
-        )
-    })
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      {
+        y: 50,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        stagger: 0.2,
+        duration: 1,
+        ease: "power2.inOut",
+      },
+    );
+  });
   return (
     <section id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
-        <img className="w-1/3 opacity-50" src="images/back.png" alt="background" />
+        <img
+          className="w-1/3 opacity-50"
+          src="images/back.png"
+          alt="background"
+        />
       </div>
 
       <div className="hero-layout">
@@ -39,7 +44,8 @@ const Hero = () => {
                     {words.map((word) => (
                       <span
                         key={word.text}
-                        className="flex items-center md:gap-3 gap-1 pb-2">
+                        className="flex items-center md:gap-3 gap-1 pb-2"
+                      >
                         <img
                           src={word.imgPath}
                           alt={word.text}
@@ -55,20 +61,40 @@ const Hero = () => {
               <h1>Web Applications</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                Hi, I'm Tarun, a developer based in India with a passion for code
+              Hi, I'm Tarun, a developer based in India with a passion for code
             </p>
-            <Button 
-            className="md:w-80 md:h-16 w-60 h-12"
-            id="button"
-            text="See My Work"
-            />
+            <div className="flex gap-4">
+              <Button
+                className="md:w-80 md:h-16 w-60 h-12"
+                id="button"
+                text="See My Work"
+              />
+              <a
+                href="/Tarun_Kumar_Resume.pdf"
+                target="_blank" 
+                rel="noreferrer"
+                className="md:w-80 md:h-16 w-60 h-12 cta-wrapper"
+              >
+                <div className="cta-button group">
+                  <div className="bg-circle" />
+
+                  <p className="text">
+                    Download Resume
+                  </p>
+
+                  <div className="arrow-wrapper">
+                    <img src="/images/arrow-down.svg" alt="arrow" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </header>
         {/* RIGHT: 3D MODEL */}
         <figure>
-            <div className="hero-3d-layout">
-                <HeroExperience />
-            </div>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
         </figure>
       </div>
       <AnimatedCounter />

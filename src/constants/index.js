@@ -247,22 +247,26 @@ const achievements = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: "GitHub",
+    url: "https://github.com/Tarun-7092",
+    imgPath: "/images/github.png"
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/tarun-kumar32",
+    imgPath: "/images/linkedin.png"
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "Email",
+    url: "mailto:tarun7488kumar@gmail.com",
+    imgPath: "/images/email.png"
   },
   {
-    name: "linkedin",
-    imgPath: "/images/linkedin.png",
-  },
-];
+    name: "Instagram",
+    url: "https://www.instagram.com/tarun.kumar_7488",
+    imgPath: "/images/instagram.png"
+  }
+]
 
 export {
   words,
