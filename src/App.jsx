@@ -1,4 +1,5 @@
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 import Logo from "./sections/Logo.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./sections/Hero.jsx";
@@ -24,6 +25,7 @@ const App = () => {
     <Contact />
     <Footer />
     <SpeedInsights />
+    <Analytics />
     </>
   );
 };
