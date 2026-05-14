@@ -49,15 +49,15 @@ A full-stack healthcare platform for booking and managing doctor appointments.
 
 ### Portfolio Website
 🔗 **Live Demo:**  
-https://portfolio-eosin-ten-7392kwijma.vercel.app 
+https://tarunlabs.vercel.app
 
 ### AI Code Reviewer
 🔗 **Live Demo:**  
-https://ai-code-reviewer-pi-tawny.vercel.app
+https://getcodescan.vercel.app
 
 ### Vehicle Breakdown Prediction System
 🔗 **Live Demo:**  
-https://vehicle-prediction.vercel.app
+https://vehicleai.vercel.app
 
 ### Doctor Appointment App
 🔗 **Live Demo:**  
